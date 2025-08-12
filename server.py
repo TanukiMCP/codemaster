@@ -20,6 +20,12 @@ logger = logging.getLogger(__name__)
 # CORS is enabled by default for streamable-http transport
 mcp = FastMCP("Codemaster")
 
+# Add health check endpoint for container orchestration
+@mcp.app.get("/health")
+async def health_check():
+    """Health check endpoint for Docker containers and load balancers."""
+    return {"status": "healthy", "service": "codemaster-mcp", "version": "1.0.0"}
+
 # Global container - initialize once
 container: Optional[CodemasterContainer] = None
 
@@ -176,9 +182,19 @@ async def codemaster(
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 9090))
-    print(f"🌐 Starting Codemaster FastMCP Server on port {port}")
-    print(f"🔧 Using streamable-http transport with /mcp endpoint")
-    print(f"🌍 CORS is enabled by default for cross-origin requests")
+    
+    # Check if running in Smithery deployment mode
+    is_smithery_deploy = os.environ.get("SMITHERY_DEPLOY", "false").lower() == "true"
+    
+    if is_smithery_deploy:
+        print(f"🚀 Starting Codemaster MCP Server for Smithery deployment on port {port}")
+        print(f"📡 Endpoint: /mcp (GET, POST, DELETE)")
+        print(f"🔧 Streamable HTTP protocol enabled")
+    else:
+        print(f"🌐 Starting Codemaster FastMCP Server on port {port}")
+        print(f"🔧 Using streamable-http transport with /mcp endpoint")
+        print(f"🌍 CORS is enabled by default for cross-origin requests")
+    
     print(f"🛠️ Enhanced parameter preprocessing enabled")
     
     # Run the FastMCP server with streamable-http transport
