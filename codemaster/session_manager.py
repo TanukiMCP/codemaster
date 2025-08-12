@@ -24,7 +24,7 @@ class SessionManager:
     - Ultra-lazy initialization for Smithery compatibility
     """
     
-    def __init__(self, state_dir: str = "taskmaster/state", persistence=None, workflow_state_machine=None):
+    def __init__(self, state_dir: str = "codemaster/state", persistence=None, workflow_state_machine=None):
         self.state_dir = state_dir
         self.current_session_file = os.path.join(state_dir, "current_session.json")
         self._lock = asyncio.Lock() # Use async lock for async environment

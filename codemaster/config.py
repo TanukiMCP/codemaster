@@ -81,7 +81,7 @@ class Config:
         """
         # SMITHERY LAZY LOADING: Ensure config is loaded before access
         cls._ensure_config_loaded()
-        state_dir = cls.get('state_directory', 'taskmaster/state')
+        state_dir = cls.get('state_directory', 'codemaster/state')
         
         # Ensure directory exists
         os.makedirs(state_dir, exist_ok=True)

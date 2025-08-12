@@ -1,5 +1,5 @@
 """
-Async session persistence for the Taskmaster application.
+Async session persistence for the Codemaster application.
 
 Provides async file operations, resource management, and robust session
 persistence with proper error handling and resource cleanup.

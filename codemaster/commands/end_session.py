@@ -1,4 +1,4 @@
-# taskmaster/commands/end_session.py
+# codemaster/commands/end_session.py
 import logging
 import asyncio
 import os

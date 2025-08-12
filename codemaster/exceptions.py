@@ -1,5 +1,5 @@
 """
-Structured error handling system for the Taskmaster application.
+Structured error handling system for the Codemaster application.
 
 Provides custom exception classes with error codes, context information,
 and proper logging integration for better error tracking and debugging.

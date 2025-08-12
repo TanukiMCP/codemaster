@@ -1,11 +1,11 @@
-# Taskmaster Configuration File
-# This file contains all available configuration options for the Taskmaster application
+# Codemaster Configuration File
+# This file contains all available configuration options for the Codemaster application
 
 # Core Configuration
 # =================
 
 # Directory where session data and state files are stored
-# Default: 'taskmaster/state'
+# Default: 'codemaster/state'
 state_directory: 'codemaster/state'
 
 # Session Management
@@ -37,7 +37,7 @@ backup_retention_days: 7
 
 # Logging configuration
 # log_level: INFO
-# log_file: taskmaster.log
+# log_file: codemaster.log
 
 # Performance settings
 # max_concurrent_sessions: 10

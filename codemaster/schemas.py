@@ -1,5 +1,5 @@
 """
-Flexible schemas for LLM guidance in the Taskmaster application.
+Flexible schemas for LLM guidance in the Codemaster application.
 
 Provides intelligent guidance and suggestions rather than rigid validation,
 allowing LLMs to work effectively with the framework while receiving helpful feedback.
