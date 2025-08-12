@@ -1,0 +1,18 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy and install minimal requirements
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy test server
+COPY minimal_server.py .
+
+# Test that FastMCP works
+RUN python -c "from fastmcp import FastMCP; print('FastMCP import successful')"
+
+# Copy full application
+COPY . .
+
+CMD ["python", "minimal_server.py"]
