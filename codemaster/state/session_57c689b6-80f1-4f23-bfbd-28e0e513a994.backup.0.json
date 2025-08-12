@@ -1,0 +1,257 @@
+{
+  "id": "session_57c689b6-80f1-4f23-bfbd-28e0e513a994",
+  "name": "Tanuki AIDE Critical Issues - Phase 2",
+  "created_at": "2025-07-07T03:59:44.221274",
+  "tasks": [
+    {
+      "id": "task_9b121ec6-8b14-441f-91cd-a38e89e96e5d",
+      "description": "Verify that Task 2 (Enhanced Chat UI Components) completed successfully - check webpack build, test enhanced components, and fix any remaining issues",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Verify that Task 2 (Enhanced Chat UI Components) completed successfully - check webpack build, test enhanced components, and fix any remaining issues",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Verify that Task 2 (Enhanced Chat UI Components) completed successfully - check webpack build, test enhanced components, and fix any remaining issues",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_982c38db-5b62-4ff0-ad3d-29a36d4b1161",
+      "description": "Add visual indication of current active model and quick switching capability in main chat interface",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Add visual indication of current active model and quick switching capability in main chat interface",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Add visual indication of current active model and quick switching capability in main chat interface",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_64671e77-9c9b-4164-869e-5d719ffa9227",
+      "description": "Enhance ResizablePanel with smooth animations and collapsing behavior like LM Studio",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Enhance ResizablePanel with smooth animations and collapsing behavior like LM Studio",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Enhance ResizablePanel with smooth animations and collapsing behavior like LM Studio",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    }
+  ],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for understanding code behavior and finding implementations"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit files with precise line-by-line changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace text in files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Fast regex search across codebase"
+      },
+      {
+        "name": "file_search",
+        "description": "Fuzzy file path search"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "delete_file",
+        "description": "Delete files"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_server-sequential-thinking_sequentialthinking",
+        "description": "Dynamic problem-solving through structured thinking process",
+        "server_name": "sequential-thinking"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

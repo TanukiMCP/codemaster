@@ -1,0 +1,13 @@
+{
+  "id": "session_5a9e83b1-08c3-4c76-a3ff-342460271657",
+  "name": "tanuki-trader-v2",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "session_created"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "session_3eae32e1-0c3b-4a2c-be80-d63854dd1325",
+  "name": "wp-mcp-validation-audit",
+  "created_at": "2025-07-08T04:50:50.222973",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "session_68013a38-7437-4876-81c9-2402591c2449",
+  "name": "test",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "session_created"
+}

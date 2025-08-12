@@ -1,0 +1,12 @@
+{
+  "id": "session_1b71e6db-6fcd-43af-ae92-3d6cece76e39",
+  "name": "tanuki_trader_v1",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {}
+}

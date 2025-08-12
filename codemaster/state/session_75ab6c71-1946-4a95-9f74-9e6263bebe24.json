@@ -1,0 +1,16 @@
+{
+  "id": "session_75ab6c71-1946-4a95-9f74-9e6263bebe24",
+  "name": "WordPress MCP Server Refactor",
+  "created_at": "2025-07-07T22:40:48.358877",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

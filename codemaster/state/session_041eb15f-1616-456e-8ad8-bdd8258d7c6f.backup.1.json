@@ -1,0 +1,64 @@
+{
+  "id": "session_041eb15f-1616-456e-8ad8-bdd8258d7c6f",
+  "name": "Tanuki AIDE Critical Issues - Phase 2",
+  "created_at": "2025-07-07T03:32:08.760787",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for code by meaning, ideal for exploring unfamiliar codebases and understanding behavior"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support for viewing code and configuration files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Fast regex search using ripgrep for finding exact text matches and patterns"
+      },
+      {
+        "name": "file_search",
+        "description": "Fuzzy file path search for locating files when you know part of the path"
+      },
+      {
+        "name": "edit_file",
+        "description": "Propose edits to existing files or create new files with precise code changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace operations on files with context-aware matching"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands for building, testing, and system operations"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents for exploring project structure"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_server-sequential-thinking_sequentialthinking",
+        "description": "Dynamic problem-solving through structured thinking process with revision capabilities",
+        "server_name": "sequential-thinking"
+      },
+      {
+        "name": "mcp_context7-mcp_resolve-library-id",
+        "description": "Resolve package names to Context7-compatible library IDs for documentation lookup",
+        "server_name": "context7-mcp"
+      },
+      {
+        "name": "mcp_context7-mcp_get-library-docs",
+        "description": "Fetch up-to-date documentation for libraries using Context7-compatible IDs",
+        "server_name": "context7-mcp"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

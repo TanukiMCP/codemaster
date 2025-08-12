@@ -1,0 +1,47 @@
+{
+  "id": "session_eeb01b01-9b7c-40a9-ab0a-4b9890f9441d",
+  "name": "test_session",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Create or modify files"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "test_tool",
+        "server_name": "test_server",
+        "description": "Test MCP tool"
+      }
+    ],
+    "user_resources": [
+      {
+        "name": "test_resource",
+        "type": "service",
+        "description": "Test resource"
+      }
+    ]
+  },
+  "data": {
+    "six_hat_analysis": {
+      "white": "Technical facts: Building a simple test application",
+      "red": "Excitement about testing the workflow",
+      "black": "Risk of workflow state issues",
+      "yellow": "Benefits of having a working workflow",
+      "green": "Alternative approaches to testing",
+      "blue": "Process for systematic testing"
+    }
+  },
+  "workflow_state": "denoising_complete"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "session_790a08e5-7388-49aa-88d4-e479878e442e",
+  "name": "PetBasReliefApp",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit files with context-aware changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace text in files"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "grep_search",
+        "description": "Search for text patterns in files"
+      },
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for code understanding"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name"
+      },
+      {
+        "name": "web_search",
+        "description": "Search the web for information"
+      }
+    ],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "six_hat_analysis_complete"
+}

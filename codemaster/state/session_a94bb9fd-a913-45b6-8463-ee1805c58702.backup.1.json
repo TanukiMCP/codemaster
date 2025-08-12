@@ -1,0 +1,69 @@
+{
+  "id": "session_a94bb9fd-a913-45b6-8463-ee1805c58702",
+  "name": "Default Session",
+  "created_at": "2025-07-07T22:41:05.149166",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for understanding codebase structure and functionality"
+      },
+      {
+        "name": "read_file",
+        "description": "Read and analyze file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Create and edit files"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace text in files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Find exact text patterns in files"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "delete_file",
+        "description": "Remove files"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "panda_plan",
+        "description": "Strategic planning and framework analysis",
+        "server_name": "PandA"
+      },
+      {
+        "name": "panda_audit",
+        "description": "Cognitive audit framework for systematic investigation",
+        "server_name": "PandA"
+      },
+      {
+        "name": "context7",
+        "description": "Access to library documentation and best practices",
+        "server_name": "Context7"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

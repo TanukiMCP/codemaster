@@ -1,0 +1,57 @@
+{
+  "id": "session_80218928-cf23-42eb-8446-596351c95e3d",
+  "name": "PandA_MCP_Server_Development",
+  "created_at": "2025-07-07T18:53:15.107873",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for code understanding and exploration"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit files with structured code changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace text in files"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "grep_search",
+        "description": "Fast regex search across files"
+      },
+      {
+        "name": "file_search",
+        "description": "Fuzzy file path search"
+      },
+      {
+        "name": "delete_file",
+        "description": "Delete files"
+      },
+      {
+        "name": "web_search",
+        "description": "Search web for current information"
+      }
+    ],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

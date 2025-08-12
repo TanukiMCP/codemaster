@@ -1,0 +1,520 @@
+{
+  "id": "session_4801cb0e-df18-421b-8964-467d830a3270",
+  "name": "Default Session",
+  "created_at": "2025-07-08T17:39:04.660020",
+  "tasks": [
+    {
+      "id": "task_df41c9bd-7c38-4df0-99c8-02b7d8f98dde",
+      "description": "Research and analyze the APIs for WooCommerce, Hivepress, and Mailpoet to understand their capabilities and integration points.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Research and analyze the APIs for WooCommerce, Hivepress, and Mailpoet to understand their capabilities and integration points.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Research and analyze the APIs for WooCommerce, Hivepress, and Mailpoet to understand their capabilities and integration points.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_93c460a7-b904-4355-a06a-564eb25b85bc",
+      "description": "Design a scalable architecture for integrating plugin commands into the single wp_mcp gateway tool, including a namespaced command structure.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Design a scalable architecture for integrating plugin commands into the single wp_mcp gateway tool, including a namespaced command structure.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Design a scalable architecture for integrating plugin commands into the single wp_mcp gateway tool, including a namespaced command structure.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_8cd1acb5-c790-4984-8ce7-eab1dd67b273",
+      "description": "Implement full support for WooCommerce, including defining commands, creating handlers, and writing unit tests.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Implement full support for WooCommerce, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Implement full support for WooCommerce, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_e2c8719e-0798-4c50-96d2-938cc1de5892",
+      "description": "Implement full support for Hivepress, including defining commands, creating handlers, and writing unit tests.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Implement full support for Hivepress, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Implement full support for Hivepress, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_5ab58cc3-61c1-4ba1-acdd-b3b55a7eedf6",
+      "description": "Implement full support for Mailpoet, including defining commands, creating handlers, and writing unit tests.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Implement full support for Mailpoet, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Implement full support for Mailpoet, including defining commands, creating handlers, and writing unit tests.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_9de0b949-f0cf-4c5a-b6c8-57c679bba9d6",
+      "description": "Integrate all new plugin handlers into the main wp_mcp tool's command dispatcher.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Integrate all new plugin handlers into the main wp_mcp tool's command dispatcher.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Integrate all new plugin handlers into the main wp_mcp tool's command dispatcher.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_0b01fd8a-2120-4478-a907-6ace1b8b33e0",
+      "description": "Update all relevant documentation, including the tool's docstring and README, to reflect the new plugin capabilities and provide usage examples.",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Update all relevant documentation, including the tool's docstring and README, to reflect the new plugin capabilities and provide usage examples.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Update all relevant documentation, including the tool's docstring and README, to reflect the new plugin capabilities and provide usage examples.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    }
+  ],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit file contents"
+      },
+      {
+        "name": "grep_search",
+        "description": "Search for patterns in files"
+      },
+      {
+        "name": "codebase_search",
+        "description": "Semantic search in codebase"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "web_search",
+        "description": "Search the web for information",
+        "server_name": "web_search"
+      },
+      {
+        "name": "mcp_context7-mcp_resolve-library-id",
+        "description": "Resolve library names to Context7 IDs",
+        "server_name": "context7"
+      },
+      {
+        "name": "mcp_context7-mcp_get-library-docs",
+        "description": "Get library documentation",
+        "server_name": "context7"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

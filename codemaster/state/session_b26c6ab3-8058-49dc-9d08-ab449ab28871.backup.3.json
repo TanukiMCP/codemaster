@@ -1,0 +1,39 @@
+{
+  "id": "session_b26c6ab3-8058-49dc-9d08-ab449ab28871",
+  "name": "Default Session",
+  "created_at": "2025-07-08T16:27:25.810587",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "wp_mcp",
+        "description": "Execute WordPress operations via command parameter."
+      },
+      {
+        "name": "sequentialthinking",
+        "description": "A detailed tool for dynamic and reflective problem-solving through thoughts."
+      },
+      {
+        "name": "resolve-library-id",
+        "description": "Resolves a package/product name to a Context7-compatible library ID and returns a list of matching libraries."
+      },
+      {
+        "name": "get-library-docs",
+        "description": "Fetches up-to-date documentation for a library."
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "wp-mcp",
+        "description": "WordPress MCP Gateway Tool",
+        "server_name": "wp-mcp"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

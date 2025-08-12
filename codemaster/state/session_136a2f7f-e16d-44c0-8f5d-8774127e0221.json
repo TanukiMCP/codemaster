@@ -1,0 +1,24 @@
+{
+  "id": "session_136a2f7f-e16d-44c0-8f5d-8774127e0221",
+  "name": "test_session",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read files"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_tool",
+        "server_name": "unknown",
+        "description": "Test MCP tool"
+      }
+    ],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "capabilities_declared"
+}

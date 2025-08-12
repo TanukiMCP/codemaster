@@ -1,0 +1,15 @@
+{
+  "id": "session_57c689b6-80f1-4f23-bfbd-28e0e513a994",
+  "name": "Tanuki AIDE Critical Issues - Phase 2",
+  "created_at": "2025-07-07T03:59:44.221274",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

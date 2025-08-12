@@ -1,0 +1,58 @@
+{
+  "id": "session_d8099efc-0bce-465c-8a64-0708c072027d",
+  "name": "EventPros Website Redesign - Professional Divi Layout Implementation",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "web_search",
+        "description": "Search web for current information about Divi layouts and design trends"
+      },
+      {
+        "name": "read_file",
+        "description": "Read configuration files and layout templates"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_wp-mcp_wp_mcp",
+        "server_name": "unknown",
+        "description": "WordPress MCP Gateway Tool for executing WordPress operations via REST API"
+      }
+    ],
+    "user_resources": [
+      {
+        "name": "Divi Theme 4.27.4",
+        "type": "software",
+        "description": "Active Divi theme with access to 760+ built-in layout packs"
+      },
+      {
+        "name": "EventPros Configuration",
+        "type": "configuration",
+        "description": "Complete EventPros branding and color scheme (#4a7c59 primary color)"
+      },
+      {
+        "name": "GeoDirectory Plugin",
+        "type": "plugin",
+        "description": "Directory functionality for business listings and search"
+      },
+      {
+        "name": "Existing Content",
+        "type": "content",
+        "description": "Current website content that needs professional redesign"
+      }
+    ]
+  },
+  "data": {
+    "six_hat_analysis": {
+      "white": "Facts: We have Divi 4.27.4 active with 760+ built-in layout packs, wp-mcp tool with GeoDirectory integration, and EventPros branding (#4a7c59). Current site has custom CSS hodgepodge causing poor design quality. Need to systematically replace 25+ pages/endpoints including homepage, search results, business listings, category pages, city pages, and all supporting pages. Must maintain GeoDirectory functionality while achieving professional cohesion.",
+      "red": "This project feels exciting because it will transform a fragmented, unprofessional site into something truly impressive. There's satisfaction in eliminating messy custom code and replacing it with proven professional designs. Users will feel confident and trust the platform when they see polished, cohesive layouts. The end result should make clients feel proud to showcase EventPros as their directory solution.",
+      "black": "Risk: Divi's built-in layouts may not perfectly fit directory functionality, requiring significant customization. GeoDirectory integration could break when applying new layouts. The site has many interconnected pages - missing any could create broken user journeys. Custom CSS removal might break essential functionality. Layout packs might not be cohesive across different pack sources. Performance could suffer with heavy Divi layouts.",
+      "yellow": "Huge opportunity to create a truly professional directory that stands out from competitors. Divi's proven layouts will follow design best practices automatically. Consistent professional appearance will increase user trust and conversions. Reduced maintenance burden by eliminating custom code. Faster development by leveraging pre-built components. The systematic approach ensures nothing is missed, resulting in a complete, polished product clients will pay premium prices for.",
+      "green": "Could combine multiple layout packs strategically - Business Consulting for homepage/about, Real Estate for listings/locations, Marketing for portfolios. Create a design system document to ensure color/font consistency across all layouts. Use Divi's Theme Builder to create global headers/footers. Implement progressive enhancement - start with basic layouts then add GeoDirectory features. Consider creating reusable layout templates for different business types.",
+      "blue": "Strategy: Phase-based approach starting with core user journey (homepage \u2192 search \u2192 listing), then expanding to supporting pages. Each task should specify exact Divi layout, wp-mcp command, and success criteria. Use systematic testing at each phase to ensure GeoDirectory integration remains functional. Document design decisions for consistency. Create backup plan for pages where Divi layouts don't fit perfectly. Prioritize mobile responsiveness throughout."
+    }
+  },
+  "workflow_state": "tasklist_created"
+}

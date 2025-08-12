@@ -1,0 +1,13 @@
+{
+  "id": "session_e5123afc-1bc7-4b6b-82cf-5197f495cd04",
+  "name": "turingmcp_cognitive_planner",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "session_created"
+}

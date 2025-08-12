@@ -1,0 +1,13 @@
+{
+  "id": "session_98fa858f-ab1a-42ee-9ce7-a9b2e915afa6",
+  "name": "stress_test_session",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "session_created"
+}

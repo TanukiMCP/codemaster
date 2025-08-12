@@ -1,0 +1,16 @@
+{
+  "id": "session_c026c4ba-e10f-4b4a-bc9f-48849735f1b6",
+  "name": "wp_mcp_refactor",
+  "created_at": "2025-07-07T22:42:45.117993",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

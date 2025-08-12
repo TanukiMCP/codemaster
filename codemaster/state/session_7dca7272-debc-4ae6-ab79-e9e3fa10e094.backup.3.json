@@ -1,0 +1,74 @@
+{
+  "id": "session_7dca7272-debc-4ae6-ab79-e9e3fa10e094",
+  "name": "EventPros Directory Website Redesign",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "search_replace",
+        "description": "Edit files by replacing text content"
+      },
+      {
+        "name": "write",
+        "description": "Create or overwrite files with new content"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents for analysis"
+      },
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for understanding codebase"
+      },
+      {
+        "name": "grep_search",
+        "description": "Text pattern search in files"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name patterns"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_wp-mcp_wp_mcp",
+        "server_name": "unknown",
+        "description": "WordPress operations including DIVI layouts, GeoDirectory management, content operations"
+      },
+      {
+        "name": "web_search",
+        "server_name": "unknown",
+        "description": "Search web for current information about DIVI layout packs and design trends"
+      }
+    ],
+    "user_resources": [
+      {
+        "name": "clarksvillewedding.com staging site",
+        "type": "resource",
+        "description": "WordPress site with DIVI theme and GeoDirectory plugin installed"
+      },
+      {
+        "name": "DIVI theme with 2000+ layouts",
+        "type": "resource",
+        "description": "Access to DIVI's layout library with ~760 layout packs"
+      },
+      {
+        "name": "GeoDirectory plugin",
+        "type": "resource",
+        "description": "Directory functionality for listings, categories, locations"
+      },
+      {
+        "name": "EventPros branding",
+        "type": "resource",
+        "description": "Green color scheme (#4a7c59) and professional directory focus"
+      }
+    ]
+  },
+  "data": {},
+  "workflow_state": "six_hat_analysis_complete"
+}

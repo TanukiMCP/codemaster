@@ -1,0 +1,16 @@
+{
+  "id": "session_80218928-cf23-42eb-8446-596351c95e3d",
+  "name": "PandA_MCP_Server_Development",
+  "created_at": "2025-07-07T18:53:15.107873",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

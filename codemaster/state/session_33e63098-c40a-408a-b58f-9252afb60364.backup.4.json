@@ -1,0 +1,13 @@
+{
+  "id": "session_33e63098-c40a-408a-b58f-9252afb60364",
+  "name": "WordPress MCP Server EventPros Implementation",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "capabilities_declared"
+}

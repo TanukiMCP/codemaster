@@ -1,0 +1,16 @@
+{
+  "id": "session_076afa6f-02e3-4fb8-aad2-cc1b9e887f63",
+  "name": "PandA_MCP_FastMCP_Implementation",
+  "created_at": "2025-07-07T18:50:09.202822",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

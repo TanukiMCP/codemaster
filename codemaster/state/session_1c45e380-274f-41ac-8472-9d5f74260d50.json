@@ -1,0 +1,12 @@
+{
+  "id": "session_1c45e380-274f-41ac-8472-9d5f74260d50",
+  "name": "SPY Options Trading Agent Development",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {}
+}

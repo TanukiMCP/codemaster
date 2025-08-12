@@ -1,0 +1,16 @@
+{
+  "id": "session_d5757ca4-74fc-46cf-8db5-e2cd1b3794d2",
+  "name": "PandA_Audit_Redesign",
+  "created_at": "2025-07-07T21:40:41.475758",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

@@ -1,0 +1,57 @@
+{
+  "id": "session_076afa6f-02e3-4fb8-aad2-cc1b9e887f63",
+  "name": "PandA_MCP_FastMCP_Implementation",
+  "created_at": "2025-07-07T18:50:09.202822",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit file contents"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace in files"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "grep_search",
+        "description": "Search for patterns in files"
+      },
+      {
+        "name": "codebase_search",
+        "description": "Semantic search in codebase"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name"
+      },
+      {
+        "name": "web_search",
+        "description": "Search the web for information"
+      },
+      {
+        "name": "delete_file",
+        "description": "Delete files"
+      }
+    ],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "session_1d2db702-7961-4879-9068-612b2de99bbb",
+  "name": "Tanuki AIDE Critical Issues - Continuation",
+  "created_at": "2025-07-07T03:51:24.170981",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search to find code by meaning and understand behavior"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support"
+      },
+      {
+        "name": "edit_file",
+        "description": "Create new files or edit existing files with precise code changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace operations for targeted code modifications"
+      },
+      {
+        "name": "grep_search",
+        "description": "Fast regex searches for exact text matches"
+      },
+      {
+        "name": "file_search",
+        "description": "Fuzzy search for file paths"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands for builds, tests, and operations"
+      },
+      {
+        "name": "delete_file",
+        "description": "Delete files when cleanup is needed"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_server-sequential-thinking_sequentialthinking",
+        "description": "Dynamic problem-solving through structured thinking process",
+        "server_name": "sequential-thinking"
+      },
+      {
+        "name": "web_search",
+        "description": "Search web for current information and documentation",
+        "server_name": "web"
+      },
+      {
+        "name": "fetch_pull_request",
+        "description": "Look up pull requests, issues, or commits for context",
+        "server_name": "git"
+      },
+      {
+        "name": "create_diagram",
+        "description": "Create Mermaid diagrams for visualization",
+        "server_name": "diagram"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

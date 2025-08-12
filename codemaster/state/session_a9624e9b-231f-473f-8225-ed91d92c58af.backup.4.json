@@ -1,0 +1,83 @@
+{
+  "id": "session_a9624e9b-231f-473f-8225-ed91d92c58af",
+  "name": "WordPress MCP Server Production Implementation",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "read_file",
+        "description": "Read file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit file contents"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace in files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Search for patterns in files"
+      },
+      {
+        "name": "codebase_search",
+        "description": "Semantic search of codebase"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_server-sequential-thinking_sequentialthinking",
+        "server_name": "unknown",
+        "description": "Advanced sequential thinking for complex problem solving"
+      },
+      {
+        "name": "mcp_context7-mcp_resolve-library-id",
+        "server_name": "unknown",
+        "description": "Resolve library names to Context7 IDs"
+      },
+      {
+        "name": "mcp_context7-mcp_get-library-docs",
+        "server_name": "unknown",
+        "description": "Get up-to-date library documentation"
+      }
+    ],
+    "user_resources": [
+      {
+        "name": "WordPress MCP Server",
+        "type": "resource",
+        "description": "Existing WordPress MCP server with basic handler implementations that need production upgrades"
+      },
+      {
+        "name": "Implementation Prompt",
+        "type": "resource",
+        "description": "Complete production-ready code specifications for all handlers in implementation_prompt.md"
+      },
+      {
+        "name": "CSV Data",
+        "type": "resource",
+        "description": "276 business listings across 10 cities in CSV format ready for import"
+      },
+      {
+        "name": "EventPros Configuration",
+        "type": "resource",
+        "description": "Project configs for EventPros.com directory site"
+      }
+    ]
+  },
+  "data": {},
+  "workflow_state": "capabilities_declared"
+}

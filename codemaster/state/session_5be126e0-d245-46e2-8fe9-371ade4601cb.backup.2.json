@@ -1,0 +1,375 @@
+{
+  "id": "session_5be126e0-d245-46e2-8fe9-371ade4601cb",
+  "name": "Romanian Language Learning Prompts Creation",
+  "task_description": null,
+  "tasks": [
+    {
+      "id": "task_a5da3efe-c26d-4979-ac84-4dfe82e4925a",
+      "description": "Create prompts folder and establish file structure",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create prompts folder and establish file structure",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "list_dir",
+            "usage_purpose": "Check current directory structure to understand where to create the prompts folder",
+            "specific_actions": [],
+            "expected_outcome": "",
+            "priority": "normal"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create prompts folder and establish file structure",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the prompts folder structure and any necessary setup files",
+            "specific_actions": [
+              "Create prompts directory structure"
+            ],
+            "expected_outcome": "Organized folder structure ready for prompt files",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_7e2be787-eef4-4c1f-9eb0-7bcab81039cb",
+      "description": "Create Phase 1 prompts (Units 1-5): Foundation - greetings, introductions, basic verbs, numbers, family",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 1 prompts (Units 1-5): Foundation - greetings, introductions, basic verbs, numbers, family",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 1 prompts (Units 1-5): Foundation - greetings, introductions, basic verbs, numbers, family",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 1 prompt files with foundation Romanian content",
+            "specific_actions": [
+              "Create units 1-5 prompt files with greetings, introductions, basic verbs, numbers, family content"
+            ],
+            "expected_outcome": "5 complete prompt files for foundation level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_c409f385-2d8c-46ab-b2af-e6d9f8248e92",
+      "description": "Create Phase 2 prompts (Units 6-10): Personal Information - professions, descriptions, origins, present tense",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 2 prompts (Units 6-10): Personal Information - professions, descriptions, origins, present tense",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 2 prompts (Units 6-10): Personal Information - professions, descriptions, origins, present tense",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 2 prompt files with personal information Romanian content",
+            "specific_actions": [
+              "Create units 6-10 prompt files with professions, descriptions, origins, present tense content"
+            ],
+            "expected_outcome": "5 complete prompt files for personal information level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_995dfa45-2344-4520-b272-10d78e85ae1a",
+      "description": "Create Phase 3 prompts (Units 11-15): Daily Life - routines, food, shopping, transportation, past tense",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 3 prompts (Units 11-15): Daily Life - routines, food, shopping, transportation, past tense",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 3 prompts (Units 11-15): Daily Life - routines, food, shopping, transportation, past tense",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 3 prompt files with daily life Romanian content",
+            "specific_actions": [
+              "Create units 11-15 prompt files with routines, food, shopping, transportation, past tense content"
+            ],
+            "expected_outcome": "5 complete prompt files for daily life level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_271590d2-5669-456c-bbf0-4236fad1a57e",
+      "description": "Create Phase 4 prompts (Units 16-20): Social Interaction - plans, preferences, directions, weather, emotions, future tense",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 4 prompts (Units 16-20): Social Interaction - plans, preferences, directions, weather, emotions, future tense",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 4 prompts (Units 16-20): Social Interaction - plans, preferences, directions, weather, emotions, future tense",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 4 prompt files with social interaction Romanian content",
+            "specific_actions": [
+              "Create units 16-20 prompt files with plans, preferences, directions, weather, emotions, future tense content"
+            ],
+            "expected_outcome": "5 complete prompt files for social interaction level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_4456e786-1989-4747-a76a-3f4fc6683798",
+      "description": "Create Phase 5 prompts (Units 21-25): Complex Conversations - experiences, culture, opinions, conditionals, storytelling",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 5 prompts (Units 21-25): Complex Conversations - experiences, culture, opinions, conditionals, storytelling",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 5 prompts (Units 21-25): Complex Conversations - experiences, culture, opinions, conditionals, storytelling",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 5 prompt files with complex conversation Romanian content",
+            "specific_actions": [
+              "Create units 21-25 prompt files with experiences, culture, opinions, conditionals, storytelling content"
+            ],
+            "expected_outcome": "5 complete prompt files for complex conversation level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_d7f15b71-649e-4fdc-991a-26714bfe8738",
+      "description": "Create Phase 6 prompts (Units 26-30): Advanced Fluency - weddings, regional culture, advanced storytelling, social etiquette, integration",
+      "status": "completed",
+      "current_phase": "execution",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Create Phase 6 prompts (Units 26-30): Advanced Fluency - weddings, regional culture, advanced storytelling, social etiquette, integration",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Create Phase 6 prompts (Units 26-30): Advanced Fluency - weddings, regional culture, advanced storytelling, social etiquette, integration",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Create the 5 Phase 6 prompt files with advanced fluency Romanian content",
+            "specific_actions": [
+              "Create units 26-30 prompt files with weddings, regional culture, advanced storytelling, social etiquette, integration content"
+            ],
+            "expected_outcome": "5 complete prompt files for advanced fluency level Romanian",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_0642c1a4-3e75-43fb-983d-ae4db4619ac6",
+      "description": "Review all prompts for consistency, progression difficulty, and cultural accuracy",
+      "status": "pending",
+      "current_phase": "execution",
+      "complexity_level": "simple",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Review all prompts for consistency, progression difficulty, and cultural accuracy",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "read_file",
+            "usage_purpose": "Read all created prompt files to check for consistency and accuracy",
+            "specific_actions": [
+              "Review content of all 30 prompt files"
+            ],
+            "expected_outcome": "Understanding of all prompt content for quality review",
+            "priority": "critical"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Review all prompts for consistency, progression difficulty, and cultural accuracy",
+        "assigned_builtin_tools": [
+          {
+            "tool_name": "edit_file",
+            "usage_purpose": "Make any necessary corrections or improvements to prompt files",
+            "specific_actions": [
+              "Fix inconsistencies, improve progression, enhance cultural accuracy"
+            ],
+            "expected_outcome": "High-quality, consistent set of 30 Romanian learning prompts",
+            "priority": "normal"
+          }
+        ],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    }
+  ],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "edit_file",
+        "description": "Create or edit files with content"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents"
+      }
+    ],
+    "mcp_tools": [],
+    "user_resources": [
+      {
+        "name": "Romanian Language Knowledge",
+        "type": "resource",
+        "description": "Comprehensive knowledge of Romanian grammar, vocabulary, and culture, especially Moldova-specific context"
+      },
+      {
+        "name": "Language Learning Pedagogy",
+        "type": "resource",
+        "description": "Understanding of effective language teaching methods, progression from A1 to B1 level, and conversation-focused learning"
+      },
+      {
+        "name": "AI Tutoring Best Practices",
+        "type": "resource",
+        "description": "Knowledge of how to write effective prompts for AI language tutoring with clear success criteria"
+      }
+    ]
+  },
+  "data": {
+    "six_hat_analysis": {
+      "white": "Factual requirements: 30 Romanian language learning prompts for A2-B1 conversational fluency, organized in 6 progressive phases of 5 units each. Target user is visiting Moldova in a few months. Each prompt must include learning objectives, vocabulary (15-20 words), grammar focus, practice activities, conversation scenarios, success criteria, and assessment instructions. Files should be named unit_##_description.txt in a 'prompts' folder. Focus is on practical conversation over academic learning.",
+      "red": "Emotional motivation: The user is genuinely excited about visiting Moldova and wants to connect authentically with people there. They're frustrated with traditional textbook approaches and crave real conversational ability. There's enthusiasm for learning but also anxiety about being understood. They need confidence-building materials that feel practical and immediately useful. The emotional goal is feeling comfortable at social events like weddings and with friends.",
+      "black": "Potential risks: Creating prompts that are too academic defeats the purpose. AI tutors might not properly assess conversational fluency. The progression might be too steep or too shallow. Moldova-specific cultural context might be insufficient. Success criteria could be too vague or too rigid. Students might get overwhelmed by 30 units. Grammar focus might overshadow conversation practice. Assessment methods might not translate well to AI tutoring.",
+      "yellow": "Positive outcomes: This structured approach will systematically build genuine conversational fluency. The progressive nature ensures solid foundation before advancing. Focus on practical scenarios will immediately transfer to real-world use in Moldova. Clear success criteria will build confidence through measurable progress. AI tutoring format allows flexible pacing and unlimited practice. Cultural context will enhance social integration in Moldova.",
+      "green": "Creative alternatives: Could incorporate Moldova-specific role-play scenarios like market haggling or wedding conversations. Include pronunciation guides using phonetic spelling. Add cultural immersion elements like traditional sayings or local expressions. Create branching conversations for different social contexts. Include 'survival phrases' for emergencies. Design interactive assessment games rather than formal tests.",
+      "blue": "Process organization: Create prompts systematically by phase, ensuring each builds on previous learning. Establish consistent template structure for all 30 units. Implement quality checks for progression difficulty and cultural accuracy. Test sample prompts for effectiveness. Create clear file organization system. Ensure each prompt provides complete guidance for AI tutoring session with measurable outcomes."
+    },
+    "denoised_plan": "Create 30 progressive Romanian language learning prompts designed for AI tutoring, targeting A2-B1 conversational fluency for someone visiting Moldova. The plan prioritizes practical conversation skills over academic learning, with Moldova-specific cultural context throughout. Each prompt will guide an AI tutor through a complete lesson with clear success criteria focused on observable conversational behaviors rather than theoretical knowledge.\n\nThe 30 units are organized in 6 phases of 5 units each, with careful progression from basic greetings to complex social interactions like wedding conversations. Each prompt follows a consistent template including: unit overview with learning objectives, Moldova-specific cultural context, core vocabulary (15-20 words with pronunciation guides), focused grammar concepts (1-2 per unit), progressive practice activities, real-world conversation scenarios, specific behavioral success criteria, detailed AI assessment instructions, encouragement phrases, and smooth transitions to next units.\n\nKey design principles: conversation-first approach, immediate practical application, confidence-building through measurable progress, flexibility for AI tutoring, cultural immersion elements, and emergency \"survival phrases\" integration. The prompts will explicitly instruct AI tutors to prioritize communication over perfect grammar initially, use patience and encouragement, and not advance students until mastery criteria are demonstrated through actual conversation practice rather than rote exercises."
+  },
+  "workflow_state": "task_executing"
+}

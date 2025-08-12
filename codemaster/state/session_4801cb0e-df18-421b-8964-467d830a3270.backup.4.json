@@ -1,0 +1,16 @@
+{
+  "id": "session_4801cb0e-df18-421b-8964-467d830a3270",
+  "name": "Default Session",
+  "created_at": "2025-07-08T17:39:04.660020",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

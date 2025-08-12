@@ -1,0 +1,13 @@
+{
+  "id": "session_aeb31632-13be-4726-8eac-7499e8794b6a",
+  "name": "wp-mcp-critical-gaps-implementation",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "six_hat_analysis_complete"
+}

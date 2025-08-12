@@ -1,0 +1,15 @@
+{
+  "id": "session_46645f5b-98c3-4902-bad6-88bf14b41054",
+  "name": "Tanuki AIDE UI Enhancement - Phase 2",
+  "created_at": "2025-07-07T03:39:12.869671",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "session_ede5b42b-1568-4f74-9745-9f4f80973096",
+  "name": "wp-mcp-plugin-integration",
+  "created_at": "2025-07-08T06:18:11.875459",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "session_f8fd320c-05e1-4eef-90a8-1b8aa81f033c",
+  "name": "wp_mcp_dev",
+  "created_at": "2025-07-08T16:27:16.081211",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

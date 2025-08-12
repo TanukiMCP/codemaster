@@ -1,0 +1,1060 @@
+{
+  "id": "session_a94bb9fd-a913-45b6-8463-ee1805c58702",
+  "name": "Default Session",
+  "created_at": "2025-07-07T22:41:05.149166",
+  "tasks": [
+    {
+      "id": "task_c0ce7214-b9d1-4b27-9b49-9b8fb38fae0a",
+      "description": "Analyze the current plugin architecture and identify core MCP server requirements",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Analyze the current plugin architecture and identify core MCP server requirements",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Analyze the current plugin architecture and identify core MCP server requirements",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_527e331c-a2be-4b4d-a528-ae54b4842100",
+      "description": "Design a clean, focused MCP server architecture for WordPress API integration",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Design a clean, focused MCP server architecture for WordPress API integration",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Design a clean, focused MCP server architecture for WordPress API integration",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_40af266c-93ac-44d7-8c4b-e986996d14c2",
+      "description": "Identify essential components needed for WordPress MCP server functionality",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Identify essential components needed for WordPress MCP server functionality",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Identify essential components needed for WordPress MCP server functionality",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_35a60ed3-d8a9-4019-892e-4003aab113bf",
+      "description": "Create the core MCP server implementation with WordPress API integration",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Create the core MCP server implementation with WordPress API integration",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Create the core MCP server implementation with WordPress API integration",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_c0136928-e720-4070-a1a4-84dee73a3297",
+      "description": "Implement comprehensive WordPress API tools for posts, pages, media, users, themes, plugins",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Implement comprehensive WordPress API tools for posts, pages, media, users, themes, plugins",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Implement comprehensive WordPress API tools for posts, pages, media, users, themes, plugins",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_463c3307-71e6-4a11-a3b3-e74c09d0a878",
+      "description": "Setup secure authentication system for WordPress API access",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Setup secure authentication system for WordPress API access",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Setup secure authentication system for WordPress API access",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_004ce5a3-d1be-40ad-ad7d-627b6c7ede13",
+      "description": "Create clean plugin directory structure and main plugin file",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Create clean plugin directory structure and main plugin file",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Create clean plugin directory structure and main plugin file",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_8eab1b3d-8bae-42e1-ba91-8c8530914184",
+      "description": "Implement simple configuration system for MCP server settings",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Implement simple configuration system for MCP server settings",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Implement simple configuration system for MCP server settings",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_735c73bf-9a24-458a-873d-a439041c60ae",
+      "description": "Add comprehensive error handling and logging for MCP operations",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Add comprehensive error handling and logging for MCP operations",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Add comprehensive error handling and logging for MCP operations",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_255877bd-6549-488c-943f-b5c8cf1b2976",
+      "description": "Create comprehensive documentation for the MCP server usage",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Create comprehensive documentation for the MCP server usage",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Create comprehensive documentation for the MCP server usage",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_6fe4b15c-adc2-4a63-9fe3-57d091a8c955",
+      "description": "Remove all unnecessary files and directories from the current complex structure",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Remove all unnecessary files and directories from the current complex structure",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Remove all unnecessary files and directories from the current complex structure",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "complex",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_cf1c6f3f-e0e4-44a6-88fd-a1b3b0497ef7",
+      "description": "Setup clean composer.json with only necessary dependencies",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Setup clean composer.json with only necessary dependencies",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Setup clean composer.json with only necessary dependencies",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_e2fcb88c-7bde-461f-88b0-12b4bff78ad6",
+      "description": "Optimize MCP server performance and add caching where appropriate",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Optimize MCP server performance and add caching where appropriate",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Optimize MCP server performance and add caching where appropriate",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_fefc5dc1-3d90-430d-bb58-13b59e0192f1",
+      "description": "Add security features like rate limiting, input validation, and access controls",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Add security features like rate limiting, input validation, and access controls",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Add security features like rate limiting, input validation, and access controls",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": false,
+      "complexity_level": "simple",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    },
+    {
+      "id": "task_4b7140b3-98e5-456d-9654-62176a8e6337",
+      "description": "Test the MCP server integration with WordPress API endpoints",
+      "status": "pending",
+      "subtasks": [],
+      "initial_tool_thoughts": {
+        "planning_tools_needed": [],
+        "execution_tools_needed": [],
+        "reasoning": "No initial tool thoughts provided - consider which tools you'll need"
+      },
+      "current_phase": "planning",
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan the execution of: Test the MCP server integration with WordPress API endpoints",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Analyze requirements",
+          "Create execution plan"
+        ],
+        "phase_guidance": "Focus on understanding requirements and planning approach",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": false,
+        "verification_agents": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execute: Test the MCP server integration with WordPress API endpoints",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": [],
+        "requires_tool_usage": false,
+        "steps": [
+          "Follow execution plan",
+          "Implement solution"
+        ],
+        "phase_guidance": "Focus on careful implementation and testing",
+        "world_model_entries": [],
+        "hierarchical_plan": null,
+        "adversarial_review": null,
+        "host_grounding": null,
+        "requires_static_analysis": false,
+        "requires_adversarial_review": true,
+        "verification_agents": []
+      },
+      "requires_world_model": false,
+      "requires_hierarchical_planning": false,
+      "requires_adversarial_review": true,
+      "complexity_level": "architectural",
+      "adversarial_review": null,
+      "evidence": [],
+      "execution_started": false,
+      "execution_evidence": [],
+      "suggested_builtin_tools": [],
+      "suggested_mcp_tools": [],
+      "suggested_memory_tools": [],
+      "suggested_resources": []
+    }
+  ],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for understanding codebase structure and functionality"
+      },
+      {
+        "name": "read_file",
+        "description": "Read and analyze file contents"
+      },
+      {
+        "name": "edit_file",
+        "description": "Create and edit files"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace text in files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Find exact text patterns in files"
+      },
+      {
+        "name": "file_search",
+        "description": "Find files by name"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "delete_file",
+        "description": "Remove files"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "panda_plan",
+        "description": "Strategic planning and framework analysis",
+        "server_name": "PandA"
+      },
+      {
+        "name": "panda_audit",
+        "description": "Cognitive audit framework for systematic investigation",
+        "server_name": "PandA"
+      },
+      {
+        "name": "context7",
+        "description": "Access to library documentation and best practices",
+        "server_name": "Context7"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null,
+  "architectural_mode": false
+}

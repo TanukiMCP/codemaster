@@ -1,0 +1,63 @@
+{
+  "id": "session_46645f5b-98c3-4902-bad6-88bf14b41054",
+  "name": "Tanuki AIDE UI Enhancement - Phase 2",
+  "created_at": "2025-07-07T03:39:12.869671",
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "codebase_search",
+        "description": "Semantic search for understanding code behavior and finding implementations"
+      },
+      {
+        "name": "read_file",
+        "description": "Read file contents with line range support"
+      },
+      {
+        "name": "edit_file",
+        "description": "Edit files with precise code changes"
+      },
+      {
+        "name": "search_replace",
+        "description": "Search and replace operations in files"
+      },
+      {
+        "name": "grep_search",
+        "description": "Fast regex searches across codebase"
+      },
+      {
+        "name": "file_search",
+        "description": "Fuzzy file path search"
+      },
+      {
+        "name": "list_dir",
+        "description": "List directory contents"
+      },
+      {
+        "name": "run_terminal_cmd",
+        "description": "Execute terminal commands"
+      },
+      {
+        "name": "delete_file",
+        "description": "Delete files"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_server-sequential-thinking_sequentialthinking",
+        "description": "Advanced problem-solving through structured thinking process",
+        "server_name": "sequential-thinking"
+      },
+      {
+        "name": "web_search",
+        "description": "Search web for current information and documentation",
+        "server_name": "web_search"
+      }
+    ],
+    "memory_tools": []
+  },
+  "world_model_enabled": false,
+  "world_model_config": null,
+  "world_model": null,
+  "hierarchical_plan": null
+}

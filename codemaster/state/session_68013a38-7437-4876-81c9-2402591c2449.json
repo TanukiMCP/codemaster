@@ -1,0 +1,24 @@
+{
+  "id": "session_68013a38-7437-4876-81c9-2402591c2449",
+  "name": "test",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [
+      {
+        "name": "test_tool",
+        "description": "Test"
+      }
+    ],
+    "mcp_tools": [
+      {
+        "name": "mcp_tool",
+        "server_name": "unknown",
+        "description": "MCP Test"
+      }
+    ],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "capabilities_declared"
+}

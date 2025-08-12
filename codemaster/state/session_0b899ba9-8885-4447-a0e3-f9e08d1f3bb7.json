@@ -1,0 +1,13 @@
+{
+  "id": "session_0b899ba9-8885-4447-a0e3-f9e08d1f3bb7",
+  "name": "WordPress MCP Development",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "session_created"
+}

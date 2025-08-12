@@ -1,0 +1,13 @@
+{
+  "id": "session_2788f008-7d2e-45d3-b16d-ff4bd6dbb135",
+  "name": "stress_test_post_fixes",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {},
+  "workflow_state": "six_hat_analysis_complete"
+}

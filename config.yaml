@@ -6,7 +6,7 @@
 
 # Directory where session data and state files are stored
 # Default: 'taskmaster/state'
-state_directory: 'taskmaster/state'
+state_directory: 'codemaster/state'
 
 # Session Management
 # ==================

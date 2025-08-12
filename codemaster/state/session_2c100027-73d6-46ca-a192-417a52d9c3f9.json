@@ -1,0 +1,12 @@
+{
+  "id": "session_2c100027-73d6-46ca-a192-417a52d9c3f9",
+  "name": "tanuki-trader-v1-development",
+  "task_description": null,
+  "tasks": [],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {}
+}

@@ -1,0 +1,388 @@
+{
+  "id": "session_7a72d70e-2e70-48eb-92bf-4439d2be20ad",
+  "name": "UI-UX-Redesign",
+  "task_description": null,
+  "tasks": [
+    {
+      "id": "task_cdf981c2-c942-4bff-93cb-67b96bb692c8",
+      "description": "Standardize layout container using CSS grid or split-pane library (e.g., react-split-grid) with persisted sizes in Redux `ui` slice.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "simple",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Standardize layout container using CSS grid or split-pane library (e.g., react-split-grid) with persisted sizes in Redux `ui` slice.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Standardize layout container using CSS grid or split-pane library (e.g., react-split-grid) with persisted sizes in Redux `ui` slice.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_5445b59d-c4f3-4c84-a70f-dbf32c36a43d",
+      "description": "Wire TitleBar and MenuBar callbacks to real actions (open folder, open file, toggle panels, theme, help, about).",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "simple",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Wire TitleBar and MenuBar callbacks to real actions (open folder, open file, toggle panels, theme, help, about).",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Wire TitleBar and MenuBar callbacks to real actions (open folder, open file, toggle panels, theme, help, about).",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_f58d3099-0ea5-4cbd-93dc-e751ddb15dc1",
+      "description": "Implement Workspace onboarding modal: choose folder, detect repo/languages, set defaults; persist to `workspace` slice.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Implement Workspace onboarding modal: choose folder, detect repo/languages, set defaults; persist to `workspace` slice.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Implement Workspace onboarding modal: choose folder, detect repo/languages, set defaults; persist to `workspace` slice.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_6ac69dab-39ea-47d6-886a-3a8b120cc7b0",
+      "description": "FileExplorer: ensure IPC handlers are robust; add lazy loading for large trees; keyboard navigation and a11y roles.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: FileExplorer: ensure IPC handlers are robust; add lazy loading for large trees; keyboard navigation and a11y roles.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: FileExplorer: ensure IPC handlers are robust; add lazy loading for large trees; keyboard navigation and a11y roles.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_25a60bfa-58d7-4858-a89d-be1f8d75f2c3",
+      "description": "CodeEditor: extract subcomponents (Header, Breadcrumbs, Toolbar, Stats, EditorView); ensure open/save/save-as via IPC; integrate Monaco themes; diff apply flow robust with error handling and toasts.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "architectural",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: CodeEditor: extract subcomponents (Header, Breadcrumbs, Toolbar, Stats, EditorView); ensure open/save/save-as via IPC; integrate Monaco themes; diff apply flow robust with error handling and toasts.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: CodeEditor: extract subcomponents (Header, Breadcrumbs, Toolbar, Stats, EditorView); ensure open/save/save-as via IPC; integrate Monaco themes; diff apply flow robust with error handling and toasts.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_884f9ed8-2681-4c93-8fec-08884328a339",
+      "description": "ToolCall UX: ensure `ActionCard` and `ToolCallCard` handle streaming updates, partials, cancellation, retries; render structured results; no 'undefined' outputs.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "simple",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: ToolCall UX: ensure `ActionCard` and `ToolCallCard` handle streaming updates, partials, cancellation, retries; render structured results; no 'undefined' outputs.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: ToolCall UX: ensure `ActionCard` and `ToolCallCard` handle streaming updates, partials, cancellation, retries; render structured results; no 'undefined' outputs.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_5f4b7de4-f65b-447c-9cbc-d9223164779c",
+      "description": "Accept/Reject overlay: confirm applies changes to file system; integrate checkpoints; ensure overlay accessible and keyboard operable.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "architectural",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Accept/Reject overlay: confirm applies changes to file system; integrate checkpoints; ensure overlay accessible and keyboard operable.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Accept/Reject overlay: confirm applies changes to file system; integrate checkpoints; ensure overlay accessible and keyboard operable.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_ea871633-c301-40f6-ad6d-0235b2e0fd03",
+      "description": "Plan/Act mode: implement `enhancedPlanActModeService` flow with explicit states (planning, approval, execution); provide progress and logs panel.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Plan/Act mode: implement `enhancedPlanActModeService` flow with explicit states (planning, approval, execution); provide progress and logs panel.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Plan/Act mode: implement `enhancedPlanActModeService` flow with explicit states (planning, approval, execution); provide progress and logs panel.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_25e21e02-a3b6-4dc1-ac42-a0a9f5c847fa",
+      "description": "SandboxController & IntegratedVMSandboxController: audit all user-facing actions; disable or feature-flag those requiring unavailable dependencies; provide clear empty/error states.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "architectural",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: SandboxController & IntegratedVMSandboxController: audit all user-facing actions; disable or feature-flag those requiring unavailable dependencies; provide clear empty/error states.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: SandboxController & IntegratedVMSandboxController: audit all user-facing actions; disable or feature-flag those requiring unavailable dependencies; provide clear empty/error states.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_0c9249cd-b99e-47f4-a7e0-3032e2f4deb7",
+      "description": "CloudVMManager & IntegratedVMManager: audit checkout/provisioning; if external deps missing, put behind feature flag with mocked but clearly labeled demo mode; remove payment hooks unless fully implemented.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "architectural",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: CloudVMManager & IntegratedVMManager: audit checkout/provisioning; if external deps missing, put behind feature flag with mocked but clearly labeled demo mode; remove payment hooks unless fully implemented.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: CloudVMManager & IntegratedVMManager: audit checkout/provisioning; if external deps missing, put behind feature flag with mocked but clearly labeled demo mode; remove payment hooks unless fully implemented.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_7e952ef0-1641-4b6e-91fe-39e7ac6d13b0",
+      "description": "Accessibility: add roles, aria labels, focus traps for dialogs; ensure contrast; keyboard-first navigation for all major screens.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Accessibility: add roles, aria labels, focus traps for dialogs; ensure contrast; keyboard-first navigation for all major screens.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Accessibility: add roles, aria labels, focus traps for dialogs; ensure contrast; keyboard-first navigation for all major screens.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_be50e000-63cb-4f89-af38-1f0b2276a8fa",
+      "description": "Feature flags: add environment-driven flag service; gate incomplete services (mcpStoreService tool families) to avoid 'not implemented' runtime errors; show graceful disabled UI.",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Feature flags: add environment-driven flag service; gate incomplete services (mcpStoreService tool families) to avoid 'not implemented' runtime errors; show graceful disabled UI.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Feature flags: add environment-driven flag service; gate incomplete services (mcpStoreService tool families) to avoid 'not implemented' runtime errors; show graceful disabled UI.",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    },
+    {
+      "id": "task_a31e5814-318f-4a75-bdb0-861126c0b999",
+      "description": "Observability: add logging on key user actions; instrument error boundary to show ErrorDialog with support info; add basic analytics events (local, no PII).",
+      "status": "pending",
+      "current_phase": "planning",
+      "complexity_level": "complex",
+      "initial_tool_thoughts": {
+        "reasoning": "No initial thoughts provided.",
+        "thought_process": []
+      },
+      "planning_phase": {
+        "phase_name": "planning",
+        "description": "Plan for: Observability: add logging on key user actions; instrument error boundary to show ErrorDialog with support info; add basic analytics events (local, no PII).",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "execution_phase": {
+        "phase_name": "execution",
+        "description": "Execution of: Observability: add logging on key user actions; instrument error boundary to show ErrorDialog with support info; add basic analytics events (local, no PII).",
+        "assigned_builtin_tools": [],
+        "assigned_mcp_tools": [],
+        "assigned_memory_tools": [],
+        "assigned_resources": []
+      },
+      "subtasks": []
+    }
+  ],
+  "capabilities": {
+    "built_in_tools": [],
+    "mcp_tools": [],
+    "user_resources": []
+  },
+  "data": {
+    "six_hat_analysis": {
+      "white": "Facts from code: Electron app loads dist/index.html. React root in src/renderer.js with Redux Persist. App.jsx exists in coverage but missing from src tree, implying build includes it but source not present (possible move/refactor). UI uses MUI, custom design system, Monaco editor, modular Chat components under src/components/chat. TitleBar and MenuBar implemented with IPC handlers wired in main.cjs. FileExplorer uses read-directory/open-folder-dialog IPC, handlers exist. Many components exist for VM sandbox, settings, dashboards. Several services throw 'not implemented' in mcpStoreService and related. Playwright UI tests target ChatPanel and general UI presence. Dist bundles include many panels. Global CSS standardizes tokens.",
+      "red": "Risk that visible UI may be rich but some operations fake or disconnected (e.g., MCP tools not implemented). Missing source of App.jsx is worrying for maintainability. UX complexity may overwhelm new users.",
+      "black": "Monolithic or very large components still present (CodeEditor 980 lines, many 600-1000 line components), risk of poor maintainability. Several services list 'not implemented' errors; some features are placeholders (analytics, DB tools). Potentially inconsistent state management between slices and local state. Accessibility likely partial. App shell (App.jsx) not found in src; risk of divergence.",
+      "yellow": "Strong base: design tokens, consistent MUI theming, modular chat pieces, IPC wiring present for critical flows (open folder, read dir). Tests exist for visual behaviors. Dist shows broad feature surface to build upon.",
+      "green": "Propose clear E2E flows: Workspace onboarding \u2192 Explorer \u2192 Editor \u2192 Chat/Agent \u2192 Sandbox VM tools \u2192 Review/Apply diffs with accept/reject overlay \u2192 Checkpointing. Implement tool-call cards with streaming progress. Integrate taskmaster as backstage planner. Use existing libraries for tree view, layout, split panes, and Monaco diff. Replace placeholder services with API-client adapters guarded by feature flags. Introduce router-less view state or minimal router. Accessibility pass and keyboard map.",
+      "blue": "Deliverables: design.txt with ASCII flows, mapping of flows to components, gap list, and a granular tasklist grouped by epics with 'definition of done' for completeness. Ensure each UX flow has mapped UI modules and owner slices."
+    },
+    "denoised_plan": "We will deliver a production-grade agentic IDE UX by (1) mapping current UI and flows, (2) defining canonical end-to-end flows, (3) aligning UI modules to each flow, (4) eliminating placeholders and wiring unimplemented tools behind feature flags, (5) modularizing monolith components, (6) enforcing accessibility/keyboard standards, and (7) instrumenting the app shell. Phases: A. Shell & Navigation (TitleBar, MenuBar, unified App shell, view state), B. Core Workspace Flow (onboarding, Explorer, Editor, Chat), C. Agent Tool-Call UX (ActionCard/ToolCallCard with streaming, progress, error states), D. VM/Sandbox flows (IntegratedVMSandboxController, CloudVMManager) with explicit states, E. Settings & Safety (SettingsPage, SafetyDashboard) consistency, F. Accessibility & Keyboard, G. Cleanup (remove dead code, feature-flag incomplete services), H. Observability. Each task has a Definition of Done: no TODO/placeholder, wired IPC/services, tests updated, a11y pass, and visual consistency with design tokens."
+  },
+  "workflow_state": "tasklist_created"
+}
