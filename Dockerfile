@@ -34,11 +34,11 @@ RUN useradd --create-home --shell /bin/bash app && \
 USER app
 
 # Expose port (will be overridden by $PORT environment variable)
-EXPOSE 8080
+EXPOSE 9090
 
 # Health check for container orchestration
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8080/health', timeout=5)" || exit 1
+    CMD python -c "import requests; requests.get('http://localhost:9090/health', timeout=5)" || exit 1
 
 # Start the server with proper signal handling
 CMD ["python", "server.py"] 

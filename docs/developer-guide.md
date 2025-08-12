@@ -33,7 +33,7 @@
    python server.py
    ```
 
-The server will start on `http://localhost:8080/mcp`
+The server will start on `http://localhost:9090/mcp`
 
 ## Core Development Concepts
 
@@ -331,7 +331,7 @@ async def test_full_workflow():
 
 ### Environment Variables
 
-- `PORT`: Server port (default: 8080)
+- `PORT`: Server port (default: 9090)
 - `SMITHERY_DEPLOY`: Deployment mode flag
 - `LOG_LEVEL`: Logging level
 
@@ -434,11 +434,11 @@ python server.py
 
 ```bash
 # Using uvicorn directly
-uvicorn server:app --host 0.0.0.0 --port 8080
+uvicorn server:app --host 0.0.0.0 --port 9090
 
 # Using Docker
 docker build -t taskmaster-mcp .
-docker run -p 8080:8080 taskmaster-mcp
+docker run -p 9090:9090 taskmaster-mcp
 ```
 
 ### Health Monitoring

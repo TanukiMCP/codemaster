@@ -249,7 +249,7 @@ scanners:
 - Health check endpoints
 
 ### Connection Parameters
-- **URL**: `http://localhost:8080/mcp`
+- **URL**: `http://localhost:9090/mcp`
 - **Transport**: Streamable HTTP
 - **Protocol**: Model Context Protocol v1.0
 

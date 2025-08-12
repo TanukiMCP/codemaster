@@ -15,7 +15,7 @@ from contextlib import asynccontextmanager
 import aiofiles
 import aiofiles.os
 from .models import Session
-from .exceptions import TaskmasterError, ErrorCode, SessionError
+from .exceptions import CodemasterError, ErrorCode, SessionError
 
 logger = logging.getLogger(__name__)
 

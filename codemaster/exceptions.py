@@ -69,7 +69,7 @@ class CodemasterError(Exception):
         cause: Optional[Exception] = None
     ):
         """
-        Initialize a TaskmasterError.
+        Initialize a CodemasterError.
         
         Args:
             message: Human-readable error message
@@ -99,7 +99,7 @@ class CodemasterError(Exception):
         if self.cause:
             log_context["cause"] = str(self.cause)
         
-        logger.error(f"TaskmasterError: {self.error_code.value} - {self.message}", extra=log_context)
+        logger.error(f"CodemasterError: {self.error_code.value} - {self.message}", extra=log_context)
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert error to dictionary format for API responses."""
@@ -244,7 +244,7 @@ class SessionPersistenceError(CodemasterError):
 
 def handle_exception(func):
     """
-    Decorator for handling exceptions and converting them to TaskmasterError.
+    Decorator for handling exceptions and converting them to CodemasterError.
     
     Usage:
         @handle_exception
@@ -255,14 +255,14 @@ def handle_exception(func):
     def wrapper(*args, **kwargs):
         try:
             return func(*args, **kwargs)
-        except TaskmasterError:
-            # Re-raise TaskmasterError as-is
+        except CodemasterError:
+            # Re-raise CodemasterError as-is
             raise
         except Exception as e:
-            # Convert other exceptions to TaskmasterError
+            # Convert other exceptions to CodemasterError
             logger = logging.getLogger(__name__)
             logger.error(f"Unexpected error in {func.__name__}: {e}")
-            raise TaskmasterError(
+            raise CodemasterError(
                 message=f"Unexpected error in {func.__name__}: {str(e)}",
                 error_code=ErrorCode.INTERNAL_ERROR,
                 details={"function": func.__name__},
@@ -272,9 +272,9 @@ def handle_exception(func):
     return wrapper
 
 
-def safe_execute(func, *args, **kwargs) -> Union[Any, TaskmasterError]:
+def safe_execute(func, *args, **kwargs) -> Union[Any, CodemasterError]:
     """
-    Safely execute a function and return either the result or a TaskmasterError.
+    Safely execute a function and return either the result or a CodemasterError.
     
     Args:
         func: The function to execute
@@ -282,16 +282,16 @@ def safe_execute(func, *args, **kwargs) -> Union[Any, TaskmasterError]:
         **kwargs: Keyword arguments for the function
     
     Returns:
-        Either the function result or a TaskmasterError instance
+        Either the function result or a CodemasterError instance
     """
     try:
         return func(*args, **kwargs)
-    except TaskmasterError as e:
+    except CodemasterError as e:
         return e
     except Exception as e:
         logger = logging.getLogger(__name__)
         logger.error(f"Unexpected error in safe_execute: {e}")
-        return TaskmasterError(
+        return CodemasterError(
             message=f"Unexpected error: {str(e)}",
             error_code=ErrorCode.INTERNAL_ERROR,
             details={"function": func.__name__ if hasattr(func, '__name__') else str(func)},
@@ -312,7 +312,7 @@ class ErrorHandler:
         error: Exception,
         context: Optional[Dict[str, Any]] = None,
         reraise: bool = True
-    ) -> TaskmasterError:
+    ) -> CodemasterError:
         """
         Handle an error with proper logging and context.
         
@@ -322,16 +322,16 @@ class ErrorHandler:
             reraise: Whether to re-raise the error after handling
         
         Returns:
-            TaskmasterError: The processed error
+            CodemasterError: The processed error
         """
-        if isinstance(error, TaskmasterError):
-            # Already a TaskmasterError, just add context if provided
+        if isinstance(error, CodemasterError):
+            # Already a CodemasterError, just add context if provided
             if context:
                 error.details.update(context)
-            taskmaster_error = error
+            codemaster_error = error
         else:
-            # Convert to TaskmasterError
-            taskmaster_error = TaskmasterError(
+            # Convert to CodemasterError
+            codemaster_error = CodemasterError(
                 message=str(error),
                 error_code=ErrorCode.INTERNAL_ERROR,
                 details=context or {},
@@ -340,26 +340,26 @@ class ErrorHandler:
         
         # Log with context
         self.logger.error(
-            f"Error handled: {taskmaster_error.error_code.value}",
+            f"Error handled: {codemaster_error.error_code.value}",
             extra={
-                "error_code": taskmaster_error.error_code.value,
-                "error_message": taskmaster_error.message, # Changed from 'message' to 'error_message' to avoid LogRecord conflict
-                "details": taskmaster_error.details,
+                "error_code": codemaster_error.error_code.value,
+                "error_message": codemaster_error.message, # Changed from 'message' to 'error_message' to avoid LogRecord conflict
+                "details": codemaster_error.details,
                 "context": context
             }
         )
         
         if reraise:
-            raise taskmaster_error
+            raise codemaster_error
         
-        return taskmaster_error
+        return codemaster_error
     
-    def create_error_response(self, error: TaskmasterError) -> Dict[str, Any]:
+    def create_error_response(self, error: CodemasterError) -> Dict[str, Any]:
         """
         Create a standardized error response dictionary.
         
         Args:
-            error: The TaskmasterError to convert
+            error: The CodemasterError to convert
         
         Returns:
             Dict containing error response data

@@ -35,10 +35,10 @@ The Taskmaster MCP Server is a powerful Model Context Protocol server that provi
    ```
 
 3. **Verify Installation**
-   The server will start on `http://localhost:8080/mcp` and display:
+   The server will start on `http://localhost:9090/mcp` and display:
    ```
-   Starting Taskmaster MCP Server v3.0 locally on port 8080
-   INFO: Uvicorn running on http://0.0.0.0:8080
+   Starting Taskmaster MCP Server v3.0 locally on port 9090
+   INFO: Uvicorn running on http://0.0.0.0:9090
    ```
 
 ## MCP Client Configuration
@@ -51,7 +51,7 @@ Add to your `mcp.json` configuration file:
 {
   "servers": {
     "taskmaster": {
-      "url": "http://localhost:8080/mcp",
+      "url": "http://localhost:9090/mcp",
       "transport": "http"
     }
   }
@@ -66,7 +66,7 @@ Add to your Claude Desktop configuration:
 {
   "mcpServers": {
     "taskmaster": {
-      "url": "http://localhost:8080/mcp",
+      "url": "http://localhost:9090/mcp",
       "transport": "http"
     }
   }
@@ -76,7 +76,7 @@ Add to your Claude Desktop configuration:
 ### Other MCP Clients
 
 For other MCP-compatible clients, use these connection parameters:
-- **URL**: `http://localhost:8080/mcp`
+- **URL**: `http://localhost:9090/mcp`
 - **Transport**: HTTP
 - **Protocol**: Model Context Protocol v1.0
 
@@ -268,7 +268,7 @@ scanners:
 
 ### Environment Variables
 
-- `PORT`: Server port (default: 8080)
+- `PORT`: Server port (default: 9090)
 - `LOG_LEVEL`: Logging verbosity (INFO, DEBUG, WARNING, ERROR)
 - `SMITHERY_DEPLOY`: Deployment mode flag
 
@@ -289,7 +289,7 @@ Error: [Errno 48] Address already in use
 PORT=8081 python server.py
 
 # Or kill existing process
-lsof -ti:8080 | xargs kill
+lsof -ti:9090 | xargs kill
 ```
 
 #### Connection Issues
