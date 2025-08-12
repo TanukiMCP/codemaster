@@ -8,10 +8,8 @@ from fastmcp import FastMCP
 # Create minimal FastMCP server
 mcp = FastMCP("CodeMaster-Test")
 
-# Add simple health check
-@mcp.app.get("/health")
-async def health_check():
-    return {"status": "healthy", "service": "codemaster-test"}
+# FastMCP handles HTTP endpoints through its built-in system
+# Traditional health checks aren't needed for MCP servers
 
 # Add minimal tool for testing
 @mcp.tool()

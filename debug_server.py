@@ -26,9 +26,8 @@ except Exception as e:
     print(f"✗ FastMCP instance creation failed: {e}")
     sys.exit(1)
 
-@mcp.app.get("/health")
-async def health_check():
-    return {"status": "healthy", "debug": True}
+# FastMCP handles HTTP endpoints through its built-in system
+# Health checks are available through the MCP protocol
 
 @mcp.tool()
 async def debug_tool(test: str = "hello") -> dict:

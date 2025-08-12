@@ -20,11 +20,8 @@ logger = logging.getLogger(__name__)
 # CORS is enabled by default for streamable-http transport
 mcp = FastMCP("Codemaster")
 
-# Add health check endpoint for container orchestration
-@mcp.app.get("/health")
-async def health_check():
-    """Health check endpoint for Docker containers and load balancers."""
-    return {"status": "healthy", "service": "codemaster-mcp", "version": "1.0.0"}
+# Health check is handled by FastMCP's built-in HTTP endpoints
+# MCP servers typically don't need traditional health check endpoints
 
 # Global container - initialize once
 container: Optional[CodemasterContainer] = None
