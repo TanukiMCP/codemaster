@@ -197,10 +197,14 @@ if __name__ == "__main__":
     
     print(f"🛠️ Enhanced parameter preprocessing enabled")
     
-    # Run the FastMCP server with streamable-http transport
-    mcp.run(
-        transport="streamable-http",
-        host="0.0.0.0",
-        port=port,
-        log_level="info"
-    ) 
+    # Run the FastMCP server with stdio transport for Smithery
+    if is_smithery_deploy:
+        mcp.run(transport="stdio", log_level="info")
+    else:
+        # Local development uses HTTP
+        mcp.run(
+            transport="streamable-http",
+            host="0.0.0.0",
+            port=port,
+            log_level="info"
+        ) 

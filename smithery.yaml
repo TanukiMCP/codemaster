@@ -3,7 +3,8 @@ build:
   dockerfile: "Dockerfile"
   dockerBuildPath: "."
 startCommand:
-  type: "http"
+  type: "stdio"
+  command: ["python", "server.py"]
   configSchema:
     type: "object"
     properties:
